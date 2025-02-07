@@ -3,8 +3,8 @@ PImage background;
 size(450, 550);
 background(#FFFFFF);
 
-background = loadImage("perry.png");
-image(background, 0, 0);
+//background = loadImage("perry.png");
+//image(background, 0, 0);
 
 stroke(#FC1919);
 strokeWeight(4); //thickness in pixels
@@ -19,7 +19,7 @@ arc(320,120, 500,150, PI/0.847,PI+PI/2.35);
 arc(300,100, 100,100, PI+HALF_PI/0.9,PI+PI/1.123);
 arc(387,200, 100,400, radians(209),radians(215));
 arc(375,370, 130,500, radians(175),radians(231));
-arc(280,487, 200,200, radians(288.5),radians(316));
+arc(280,487, 200,200, radians(288.5),radians(314));
 arc(440,460, 400,45, radians(196),radians(245));
 arc(120,445, 200,85, radians(315),radians(336));
 
@@ -62,7 +62,53 @@ arc(345,130, 90,90, radians(20),radians(90));
 arc(361,134, 40,40, radians(0),radians(360));
 arc(356,129, 15,15, radians(0),radians(360));
 
+//foot1
+translate(width/2, height/2);
+rotate(radians(-15));
+arc(-38,155, 28,80, radians(325),radians(360));
+arc(-38,155, 28,80, radians(0),radians(207));
+rotate(radians(15));
+arc(-18,130, 30,30, radians(0),radians(70));
+arc(5,125, 20,20, radians(75),radians(130));
+
+//foot2
+arc(137.5,125, 28,83, radians(341),radians(360));
+arc(137.5,125, 28,83, radians(0),radians(194));
+arc(126,95, 20,40, radians(30),radians(100));
+arc(143,95, 20,40, radians(60),radians(150));
+
+//arm
+translate(width/-2, height/-2);
+line(105,310, 105,340);
 //arc(300,300, 100,100, radians(0),radians(360));
 //arc(300,300, 100,100, radians(0),radians(360));
 //arc(300,300, 100,100, radians(0),radians(360));
 //arc(300,300, 100,100, radians(0),radians(360));
+//arc(300,300, 100,100, radians(0),radians(360));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
