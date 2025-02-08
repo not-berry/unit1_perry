@@ -80,19 +80,15 @@ arc(143,95, 20,40, radians(60),radians(150));
 //arm
 translate(width/-2, height/-2);
 line(105,310, 105,340);
+arc(93,339, 25,30, radians(11),radians(60));
+arc(104,357, 15,15, radians(30),radians(220));
+arc(112,352, 30,30, radians(15),radians(115));
+line(145,309, 125,358);
 //arc(300,300, 100,100, radians(0),radians(360));
 //arc(300,300, 100,100, radians(0),radians(360));
 //arc(300,300, 100,100, radians(0),radians(360));
 //arc(300,300, 100,100, radians(0),radians(360));
 //arc(300,300, 100,100, radians(0),radians(360));
-
-
-
-
-
-
-
-
 
 
 
